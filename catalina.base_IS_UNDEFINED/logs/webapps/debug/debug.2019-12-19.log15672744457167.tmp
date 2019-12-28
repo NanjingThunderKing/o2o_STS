@@ -1,0 +1,6 @@
+2019-12-22 08:03:19.433 [main] DEBUG com.imooc.o2o.O2oApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2019-12-22 08:04:35.635 [main] DEBUG com.imooc.o2o.O2oApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2019-12-18 23:59:15.083 [main] DEBUG com.imooc.o2o.O2oApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2019-12-19 00:00:00.367 [schedulerFactory_Worker-1] DEBUG c.i.o.d.ProductSellDailyDao.insertProductSellDaily - ==>  Preparing: INSERT INTO tb_product_sell_daily ( SELECT product_id, shop_id, create_time, count(product_id) AS total FROM tb_user_product_map WHERE date_format(create_time, '%Y-%m-%d') = date_sub(curdate(), interval 1 day) GROUP BY product_id ) 
+2019-12-19 00:00:00.391 [schedulerFactory_Worker-1] DEBUG c.i.o.d.ProductSellDailyDao.insertProductSellDaily - ==> Parameters: 
+2019-12-19 00:00:00.394 [schedulerFactory_Worker-1] DEBUG c.i.o.d.ProductSellDailyDao.insertProductSellDaily - <==    Updates: 3

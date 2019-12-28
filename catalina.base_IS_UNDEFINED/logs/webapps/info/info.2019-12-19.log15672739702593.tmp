@@ -1,0 +1,9 @@
+2019-12-22 08:03:19.429 [main] INFO  com.imooc.o2o.O2oApplication - Starting O2oApplication on yangtengyudeMacBook-Pro.local with PID 697 (/Users/yangtengyu/Desktop/STS/o2o/target/classes started by yangtengyu in /Users/yangtengyu/Desktop/STS/o2o)
+2019-12-22 08:03:19.434 [main] INFO  com.imooc.o2o.O2oApplication - No active profile set, falling back to default profiles: default
+2019-12-22 08:04:35.633 [main] INFO  com.imooc.o2o.O2oApplication - Starting O2oApplication on yangtengyudeMacBook-Pro.local with PID 700 (/Users/yangtengyu/Desktop/STS/o2o/target/classes started by yangtengyu in /Users/yangtengyu/Desktop/STS/o2o)
+2019-12-22 08:04:35.635 [main] INFO  com.imooc.o2o.O2oApplication - No active profile set, falling back to default profiles: default
+2019-12-22 08:04:38.826 [main] INFO  com.imooc.o2o.O2oApplication - Started O2oApplication in 3.445 seconds (JVM running for 3.908)
+2019-12-18 23:59:15.081 [main] INFO  com.imooc.o2o.O2oApplication - Starting O2oApplication on yangtengyudeMacBook-Pro.local with PID 1046 (/Users/yangtengyu/Desktop/STS/o2o/target/classes started by yangtengyu in /Users/yangtengyu/Desktop/STS/o2o)
+2019-12-18 23:59:15.084 [main] INFO  com.imooc.o2o.O2oApplication - No active profile set, falling back to default profiles: default
+2019-12-18 23:59:18.377 [main] INFO  com.imooc.o2o.O2oApplication - Started O2oApplication in 3.688 seconds (JVM running for 4.211)
+2019-12-19 00:00:00.010 [schedulerFactory_Worker-1] INFO  c.i.o2o.service.impl.ProductSellDailyServiceImpl - Quartz Running!
