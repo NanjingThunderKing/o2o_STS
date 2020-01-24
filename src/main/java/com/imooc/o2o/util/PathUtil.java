@@ -13,6 +13,10 @@ public class PathUtil {
 	private static String linuxPath;
 	
 	private static String shopPath;
+	
+	private static String headLinePath;
+
+	private static String shopCategoryPath;
 
 	@Value("${win.base.path}")
 	public void setWinPath(String winPath) {
@@ -28,6 +32,16 @@ public class PathUtil {
 	public void setShopPath(String shopPath) {
 		PathUtil.shopPath = shopPath;
 	}
+	
+	@Value("${headline.relevant.path}")
+	public void setHeadLinePath(String headLinePath) {
+		PathUtil.headLinePath = headLinePath;
+	}
+
+	@Value("${shopcategory.relevant.path}")
+	public void setShopCategoryPath(String shopCategoryPath) {
+		PathUtil.shopCategoryPath = shopCategoryPath;
+	}	
 
 	public static String getImgBasePath() {
 		String os = System.getProperty("os.name");
@@ -45,4 +59,12 @@ public class PathUtil {
 		String imagePath = shopPath + shopId + seperator;
 		return imagePath.replace("/", seperator);
 	}
+	
+	public static String getHeadLineImagePath() {
+		return headLinePath.replace("/", seperator);
+	}
+
+	public static String getShopCategoryPath() {
+		return shopCategoryPath.replace("/", seperator);
+	}	
 }

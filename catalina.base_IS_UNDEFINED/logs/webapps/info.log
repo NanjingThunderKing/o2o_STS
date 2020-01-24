@@ -1,24 +1,3 @@
-2019-12-28 09:46:57.505 [main] INFO  com.imooc.o2o.O2oApplication - Starting O2oApplication on yangtengyudeMacBook-Pro.local with PID 800 (/Users/yangtengyu/Desktop/STS/o2o/target/classes started by yangtengyu in /Users/yangtengyu/Desktop/STS/o2o)
-2019-12-28 09:46:57.510 [main] INFO  com.imooc.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2019-12-28 09:47:01.459 [main] INFO  com.imooc.o2o.O2oApplication - Started O2oApplication in 4.438 seconds (JVM running for 4.988)
-2019-12-28 10:05:11.717 [main] INFO  com.imooc.o2o.O2oApplication - Starting O2oApplication on yangtengyudeMacBook-Pro.local with PID 875 (/Users/yangtengyu/Desktop/STS/o2o/target/classes started by yangtengyu in /Users/yangtengyu/Desktop/STS/o2o)
-2019-12-28 10:05:11.720 [main] INFO  com.imooc.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2019-12-28 10:05:14.918 [main] INFO  com.imooc.o2o.O2oApplication - Started O2oApplication in 3.581 seconds (JVM running for 4.016)
-2019-12-28 14:40:25.206 [main] INFO  com.imooc.o2o.O2oApplication - Starting O2oApplication on yangtengyudeMacBook-Pro.local with PID 723 (/Users/yangtengyu/Desktop/STS/o2o/target/classes started by yangtengyu in /Users/yangtengyu/Desktop/STS/o2o)
-2019-12-28 14:40:25.209 [main] INFO  com.imooc.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2019-12-28 14:40:28.566 [main] INFO  com.imooc.o2o.O2oApplication - Started O2oApplication in 3.826 seconds (JVM running for 4.308)
-2019-12-28 15:56:22.106 [main] INFO  com.imooc.o2o.O2oApplication - Starting O2oApplication on yangtengyudeMacBook-Pro.local with PID 856 (/Users/yangtengyu/Desktop/STS/o2o/target/classes started by yangtengyu in /Users/yangtengyu/Desktop/STS/o2o)
-2019-12-28 15:56:22.108 [main] INFO  com.imooc.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2019-12-28 15:56:25.266 [main] INFO  com.imooc.o2o.O2oApplication - Started O2oApplication in 3.552 seconds (JVM running for 3.996)
-2019-12-28 16:05:53.384 [main] INFO  com.imooc.o2o.O2oApplication - Starting O2oApplication on yangtengyudeMacBook-Pro.local with PID 866 (/Users/yangtengyu/Desktop/STS/o2o/target/classes started by yangtengyu in /Users/yangtengyu/Desktop/STS/o2o)
-2019-12-28 16:05:53.386 [main] INFO  com.imooc.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2019-12-28 16:05:56.491 [main] INFO  com.imooc.o2o.O2oApplication - Started O2oApplication in 3.495 seconds (JVM running for 3.934)
-2019-12-28 16:15:16.201 [main] INFO  com.imooc.o2o.O2oApplication - Starting O2oApplication on yangtengyudeMacBook-Pro.local with PID 888 (/Users/yangtengyu/Desktop/STS/o2o/target/classes started by yangtengyu in /Users/yangtengyu/Desktop/STS/o2o)
-2019-12-28 16:15:16.203 [main] INFO  com.imooc.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2019-12-28 16:15:19.374 [main] INFO  com.imooc.o2o.O2oApplication - Started O2oApplication in 3.604 seconds (JVM running for 4.069)
-2019-12-28 16:17:54.770 [main] INFO  com.imooc.o2o.O2oApplication - Starting O2oApplication on yangtengyudeMacBook-Pro.local with PID 902 (/Users/yangtengyu/Desktop/STS/o2o/target/classes started by yangtengyu in /Users/yangtengyu/Desktop/STS/o2o)
-2019-12-28 16:17:54.772 [main] INFO  com.imooc.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2019-12-28 16:17:57.875 [main] INFO  com.imooc.o2o.O2oApplication - Started O2oApplication in 3.522 seconds (JVM running for 3.954)
-2019-12-28 16:47:27.644 [main] INFO  com.imooc.o2o.O2oApplication - Starting O2oApplication on yangtengyudeMacBook-Pro.local with PID 953 (/Users/yangtengyu/Desktop/STS/o2o/target/classes started by yangtengyu in /Users/yangtengyu/Desktop/STS/o2o)
-2019-12-28 16:47:27.646 [main] INFO  com.imooc.o2o.O2oApplication - No active profile set, falling back to default profiles: default
-2019-12-28 16:47:30.859 [main] INFO  com.imooc.o2o.O2oApplication - Started O2oApplication in 3.646 seconds (JVM running for 4.175)
+2020-01-20 10:23:16.982 [main] INFO  com.imooc.o2o.O2oApplication - Starting O2oApplication on yangtengyudeMacBook-Pro.local with PID 5191 (/Users/yangtengyu/Desktop/STS/o2o/target/classes started by yangtengyu in /Users/yangtengyu/Desktop/STS/o2o)
+2020-01-20 10:23:16.987 [main] INFO  com.imooc.o2o.O2oApplication - No active profile set, falling back to default profiles: default
+2020-01-20 10:23:20.604 [main] INFO  com.imooc.o2o.O2oApplication - Started O2oApplication in 3.94 seconds (JVM running for 4.505)

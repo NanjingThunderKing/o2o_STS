@@ -1,14 +1,8 @@
-2019-12-21 10:13:57.302 [main] ERROR com.imooc.o2o.util.ShortNetAddressUtil - getValueByKey_JSON error:com.fasterxml.jackson.databind.JsonMappingException: No content to map due to end-of-input
- at [Source: ; line: 1, column: 0]
-2019-12-21 10:20:16.097 [main] ERROR com.imooc.o2o.util.ShortNetAddressUtil - getValueByKey_JSON error:com.fasterxml.jackson.databind.JsonMappingException: No content to map due to end-of-input
- at [Source: ; line: 1, column: 0]
-2019-12-21 10:23:09.782 [main] ERROR com.imooc.o2o.util.ShortNetAddressUtil - getValueByKey_JSON error:com.fasterxml.jackson.databind.JsonMappingException: No content to map due to end-of-input
- at [Source: ; line: 1, column: 0]
-2019-12-21 10:33:35.651 [main] ERROR com.imooc.o2o.util.ShortNetAddressUtil - getValueByKey_JSON error:com.fasterxml.jackson.databind.JsonMappingException: No content to map due to end-of-input
- at [Source: ; line: 1, column: 0]
-2019-12-21 11:27:56.670 [main] ERROR com.imooc.o2o.util.ShortNetAddressUtil - getValueByKey_JSON error:com.fasterxml.jackson.databind.JsonMappingException: No content to map due to end-of-input
- at [Source: ; line: 1, column: 0]
-2019-12-21 11:28:05.179 [main] ERROR com.imooc.o2o.util.ShortNetAddressUtil - getValueByKey_JSON error:com.fasterxml.jackson.databind.JsonMappingException: No content to map due to end-of-input
- at [Source: ; line: 1, column: 0]
-2019-12-21 11:28:18.253 [main] ERROR com.imooc.o2o.util.ShortNetAddressUtil - getValueByKey_JSON error:com.fasterxml.jackson.databind.JsonMappingException: No content to map due to end-of-input
- at [Source: ; line: 1, column: 0]
+2019-12-29 12:53:19.139 [http-nio-8080-exec-7] ERROR com.imooc.o2o.web.superadmin.AreaController - test error!
+2019-12-29 12:54:23.965 [http-nio-8080-exec-7] ERROR com.imooc.o2o.web.superadmin.AreaController - test error!
+2019-12-29 13:04:27.517 [http-nio-8080-exec-3] ERROR com.imooc.o2o.web.superadmin.AreaController - test error!
+2019-12-29 15:05:25.146 [http-nio-8080-exec-7] ERROR com.imooc.o2o.web.superadmin.AreaController - test error!
+2019-12-29 15:17:49.983 [http-nio-8080-exec-6] ERROR com.imooc.o2o.web.superadmin.AreaController - test error!
+2019-12-29 15:30:20.445 [http-nio-8080-exec-5] ERROR com.imooc.o2o.web.superadmin.AreaController - test error!
+2019-12-29 15:41:33.523 [http-nio-8080-exec-7] ERROR com.imooc.o2o.web.superadmin.AreaController - test error!
+2019-12-29 15:50:06.034 [http-nio-8080-exec-10] ERROR com.imooc.o2o.web.superadmin.AreaController - test error!

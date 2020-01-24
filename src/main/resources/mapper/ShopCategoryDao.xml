@@ -5,6 +5,21 @@
 
 <mapper namespace="com.imooc.o2o.dao.ShopCategoryDao">
 
+	<resultMap type="com.imooc.o2o.entity.ShopCategory" id="shopCategoryMap">
+		<id column="shop_category_id" property="shopCategoryId" />
+		<result column="shop_category_name" property="shopCategoryName" />
+		<result column="shop_category_desc" property="shopCategoryDesc" />
+		<result column="shop_category_img" property="shopCategoryImg" />
+		<result column="priority" property="priority" />
+		<result column="create_time" property="createTime" />
+		<result column="last_edit_time" property="lastEditTime" />
+		<association property="parent" column="parent_id"
+			javaType="com.imooc.o2o.entity.ShopCategory">
+			<id column="parent_id" property="shopCategoryId" />
+			<result column="shop_category_name" property="shopCategoryName" />
+		</association>
+	</resultMap>
+
 	 <select id="queryShopCategory" resultType="com.imooc.o2o.entity.ShopCategory">
 		SELECT
 		*
@@ -25,6 +40,40 @@
 		priority DESC
 	</select>
 	
+	<select id="queryShopCategoryById" resultMap="shopCategoryMap">
+		SELECT
+		shop_category_id,
+		shop_category_name,
+		shop_category_desc,
+		shop_category_img,
+		priority,
+		create_time,
+		last_edit_time,
+		parent_id
+		FROM
+		tb_shop_category
+		WHERE
+		shop_category_id=#{shopCategoryId}
+	</select>
+	<select id="queryShopCategoryByIds" resultMap="shopCategoryMap">
+		SELECT
+		shop_category_id,
+		shop_category_name,
+		shop_category_desc,
+		shop_category_img,
+		priority,
+		create_time,
+		last_edit_time,
+		parent_id
+		FROM
+		tb_shop_category
+		WHERE shop_category_id IN
+		<foreach collection="list" item="shopCategoryId" open="("
+			separator="," close=")">
+			#{shopCategoryId}
+		</foreach>
+	</select>
+	
 	<insert id="insertShopCategory" parameterType="com.imooc.o2o.entity.ShopCategory"
 		useGeneratedKeys="true" keyProperty="shopCategoryId" keyColumn="shop_category_id" >
 		INSERT INTO
@@ -37,5 +86,34 @@
 		 #{priority}, #{createTime}, #{lastEditTime},
 		 #{parent.shopCategoryId})
 	</insert> 
+	
+		<update id="updateShopCategory" parameterType="com.imooc.o2o.entity.ShopCategory">
+		update tb_shop_category
+		<set>
+			<if test="shopCategoryName != null">shop_category_name=#{shopCategoryName},</if>
+			<if test="shopCategoryDesc != null">shop_category_desc=#{shopCategoryDesc},</if>
+			<if test="shopCategoryImg != null">shop_category_img=#{shopCategoryImg},</if>
+			<if test="priority != null">priority=#{priority},</if>
+			<if test="lastEditTime != null">last_edit_time=#{lastEditTime},</if>
+			<if test="parent != null and parent.shopCategoryId != null">parent_id=#{parent.shopCategoryId}</if>
+		</set>
+		where shop_category_id=#{shopCategoryId}
+	</update>
+	<delete id="deleteShopCategory">
+		DELETE FROM
+		tb_shop_category
+		WHERE
+		shop_category_id =
+		#{shopCategoryId}
+	</delete>
+	<delete id="batchDeleteShopCategory" parameterType="long">
+		DELETE FROM
+		tb_shop_category
+		WHERE shop_category_id IN
+		<foreach collection="list" item="shopCategoryId" open="("
+			separator="," close=")">
+			#{shopCategoryId}
+		</foreach>
+	</delete>
 	
 </mapper>  
